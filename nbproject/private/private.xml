@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Java/GranitTorgOnline/web/jsp/header.jsp</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/dao/PlaceDAO.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/MenuServlet.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/constants/Messages.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/web/index.jsp</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/constants/SqlRequest.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/LoginServlet.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/web/jsp/menu.jsp</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/constants/Parameters.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/filters/Filter.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/PlaceServlet.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/web/jsp/mainPage.jsp</file>
+            <file>file:/D:/Java/GranitTorgOnline/web/jsp/add/addPlace.jsp</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/constants/Actions.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/web/styles/style.jsp</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/LogoutServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

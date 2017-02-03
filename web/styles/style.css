@@ -1,0 +1,22 @@
+/* 
+    Created on : 03.02.2017, 12:03:28
+    Author     : Dmitry
+*/
+
+body{
+    background: #494949;
+    color: #ffffff;
+}
+h1.site_name{
+    text-align: center;
+}
+div.login{
+    margin: auto;
+    width: 154px
+}
+span.validationError{
+    color: red;
+}
+div.header{
+    border: 1px solid red;
+}
