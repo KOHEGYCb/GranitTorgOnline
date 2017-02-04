@@ -8,20 +8,20 @@ public class Parameter {
     
     private int id;
     private Type type;
-    private String parameter;
+    private String name;
 
     public Parameter() {
     }
 
-    public Parameter(int id, Type type, String parameter) {
+    public Parameter(int id, Type type, String name) {
         this.id = id;
         this.type = type;
-        this.parameter = parameter;
+        this.name = name;
     }
     
-    public Parameter(Type type, String parameter) {
+    public Parameter(Type type, String name) {
         this.type = type;
-        this.parameter = parameter;
+        this.name = name;
     }
 
     /**
@@ -53,17 +53,17 @@ public class Parameter {
     }
 
     /**
-     * @return the parameter
+     * @return the name
      */
-    public String getParameter() {
-        return parameter;
+    public String getName() {
+        return name;
     }
 
     /**
-     * @param parameter the parameter to set
+     * @param name the name to set
      */
-    public void setParameter(String parameter) {
-        this.parameter = parameter;
+    public void setName(String name) {
+        this.name = name;
     }
     
 }

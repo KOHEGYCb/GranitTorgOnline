@@ -13,6 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="styles/style.css"/>
         <title>JSP Page</title>
+        <jsp:include flush="true" page="styles/style.jsp"/>
     </head>
     <body>
         <h1 class="site_name">GranitTorg Online</h1>
