@@ -15,7 +15,7 @@
         <li><input type="submit" name="menuType" value="Type"/></li>
         <li><input type="submit" name="menuParameter" value="Parameter"/></li>
         <li><input type="submit" name="menuEntity" value="Entity"/></li>
-        <li><input type="submit" name="menuLogout"value="menuLogout" /></li>
+        <li><input type="submit" name="menuLogout"value="LogOut" /></li>
     </ul>
 </form>
 <hr/>

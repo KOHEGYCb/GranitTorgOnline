@@ -12,13 +12,12 @@
             <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/LoginServlet.java</file>
             <file>file:/D:/Java/GranitTorgOnline/web/jsp/menu.jsp</file>
             <file>file:/D:/Java/GranitTorgOnline/src/java/constants/Parameters.java</file>
-            <file>file:/D:/Java/GranitTorgOnline/src/java/filters/Filter.java</file>
+            <file>file:/D:/Java/GranitTorgOnline/src/java/filters/MyFilter.java</file>
             <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/PlaceServlet.java</file>
             <file>file:/D:/Java/GranitTorgOnline/web/jsp/mainPage.jsp</file>
             <file>file:/D:/Java/GranitTorgOnline/web/jsp/add/addPlace.jsp</file>
             <file>file:/D:/Java/GranitTorgOnline/src/java/constants/Actions.java</file>
             <file>file:/D:/Java/GranitTorgOnline/web/styles/style.jsp</file>
-            <file>file:/D:/Java/GranitTorgOnline/src/java/servlets/LogoutServlet.java</file>
         </group>
     </open-files>
 </project-private>
