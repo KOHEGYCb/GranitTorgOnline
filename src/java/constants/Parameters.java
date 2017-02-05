@@ -6,6 +6,7 @@ package constants;
  */
 public class Parameters {
 
+
     private Parameters(){}
     //setParameters
     public static final String WRONG_PASSWORD = "wrongPassword";
@@ -25,5 +26,7 @@ public class Parameters {
     public static final String MENU_TYPE = "menuType";
     public static final String MENU_LOGOUT = "menuLogout";
     public static final String MENU_MAIN = "menuMain";
+    public static final String MENU_PARAMETER = "menuParameter";
+    public static final String MENU_ENTITY = "menuEntity";
     
 }

@@ -53,7 +53,7 @@ public class PlaceServlet extends ManagerServlet {
         if (isCorrectData) {
             forward(Pages.MAIN_PAGE, req, resp);
         } else {
-            forward(Pages.ADD_PLACE, req, resp);
+            forward(Pages.PLACE, req, resp);
         }
     }
 

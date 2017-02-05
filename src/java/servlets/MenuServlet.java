@@ -26,11 +26,23 @@ public class MenuServlet extends ManagerServlet {
         }
         
         if(req.getParameter(Parameters.MENU_PLACE) != null){
-            forward(Pages.ADD_PLACE, req, resp);
+            forward(Pages.PLACE, req, resp);
         }
         
         if(req.getParameter(Parameters.MENU_MAIN) != null){
             forward(Pages.MAIN_PAGE, req, resp);
+        }
+        
+        if(req.getParameter(Parameters.MENU_TYPE) != null){
+            forward(Pages.TYPE, req, resp);
+        }
+        
+        if(req.getParameter(Parameters.MENU_PARAMETER) != null){
+            forward(Pages.PARAMETER, req, resp);
+        }
+        
+        if(req.getParameter(Parameters.MENU_ENTITY) != null){
+            forward(Pages.ENITITY, req, resp);
         }
     }
 

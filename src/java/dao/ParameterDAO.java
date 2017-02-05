@@ -29,16 +29,35 @@ public class ParameterDAO extends AbstractDao {
     public void create(Parameter parameter) {
         Connection connection = null;
         PreparedStatement statement = null;
-        try{
+        try {
             connection = ConnectionPool.getInstance().getConnection();
             statement = connection.prepareStatement(SqlRequest.CREATE_PARAMETER);
             statement.setInt(1, parameter.getType().getId());
             statement.setString(2, parameter.getName());
         } catch (SQLException ex) {
             Logger.getLogger(ParameterDAO.class.getName()).log(Level.SEVERE, null, ex);
-        }finally{
+        } finally {
             closeJDBC(connection, statement);
         }
+    }
+
+    public Parameter getParameter(Parameter parameter) {
+        Connection connection = null;
+        PreparedStatement statement = null;
+        ResultSet result = null;
+        try {
+            connection = ConnectionPool.getInstance().getConnection();
+            statement = connection.prepareStatement(SqlRequest.GET_PARAMETER_BY_NAME);
+            statement.setString(1, parameter.getName());
+            result = statement.executeQuery();
+            parameter.setId(result.getInt(Columns.PARAMETER_ID));
+            parameter.setType(TypeDAO.getINSTANCE().getType(result.getInt(Columns.PARAMETER_ID_TYPE)));
+        } catch (SQLException ex) {
+            Logger.getLogger(ParameterDAO.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            closeJDBC(connection, statement, result);
+        }
+        return parameter;
     }
 
     public boolean isFound(Parameter parameter) {
