@@ -5,13 +5,11 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<div style="border: 1px solid red;">
-    <h2>Add Place</h2>
-    <form action="addPlace" method="post">
-        <input type="text" name="place" value="${place}"/>
-        <br><span>${wrongPlace}</span>
-        <br><br/>
 
-        <input type="submit" name="addPlace" value="Add Place"/>
+<div>
+    <h2>Add Place</h2>
+    <form action="PlaceServlet" method="post">
+        <input type="text" value="${addPlace}" name="newPlaceName"/>
+        <input type="submit" value="Create" name="addPlace"/>
     </form>
 </div>

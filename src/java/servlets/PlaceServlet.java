@@ -17,7 +17,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author Dmitry
  */
-@WebServlet("/addPlace")
+@WebServlet("/PlaceServlet")
 public class PlaceServlet extends ManagerServlet {
 
     @Override
@@ -28,7 +28,8 @@ public class PlaceServlet extends ManagerServlet {
     }
     
     private void AddPlace(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException{
-        String name = req.getParameter(Parameters.PLACE);
+        String name = req.getParameter(Parameters.ADD_PLACE_NAME);
+        System.out.println("\n\n\n\n\n\n\n" + name);
         boolean isCorrectData = true;
         if ("".equals(name)) {
             isCorrectData = false;
@@ -42,7 +43,7 @@ public class PlaceServlet extends ManagerServlet {
                 session.setAttribute(Parameters.ACTION, Actions.ADD_PLACE);
             } else {
                 isCorrectData = false;
-                req.setAttribute(Parameters.PLACE, place.getName());
+                req.setAttribute(Parameters.ADD_PLACE, place.getName());
                 req.setAttribute(Parameters.WRONG_PLACE, Messages.PLACE_ALREDY_CREATE);
             }
         }else{
